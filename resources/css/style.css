@@ -41,11 +41,46 @@ body {
   margin: 0 auto;
 }
 
+.text-block {
+  background-color: black;
+}
+
+/* Banner section styles */
+
 .banner {
+  display: flex;
   height: 25rem;
   background-image: url('../images/main-banner.jpeg');
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
-/* Banner section styles */
+.banner .text-block {
+    width: 20rem;
+    padding: 2rem 0 2rem 3rem;
+    margin-top: 9rem;
+}
+
+h1,
+h5 {
+  font-weight: bold;
+}
+
+.banner h1 {
+  font-size: 2rem;
+  line-height: 1.2em;
+  margin-top: 0.25rem;
+}
+
+/* Navigation section styles */
+
+nav {
+  background-color: firebrick;
+  padding: 0.75rem 0;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+}
