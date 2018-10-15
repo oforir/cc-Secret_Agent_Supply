@@ -132,3 +132,11 @@ nav .container {
 .info p {
   color: black;
 }
+
+/* Footer styles */
+
+footer {
+  margin-top: 4rem;
+  background-color: black;
+  padding: 5rem 0;
+}
