@@ -1,7 +1,51 @@
 
 /* General styles */
 
+html {
+  font-size: 18px;
+  background-color: white;
+  color: white;
+}
 
+body {
+  font-family: Helvetica;
+  line-height: 1.4em;
+}
 
+/* Header section styles */
+
+.header {
+  background-color: black;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  /*padding: 12px 0 12px 0.5em;*/
+}
+
+.header img {
+  height: 1.5rem;
+  padding-right: 1rem;
+  padding-left: 0.5rem;
+}
+
+.header span {
+  padding: 0.66rem 0;
+}
 
 /* Main section styles */
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.banner {
+  height: 25rem;
+  background-image: url('../images/main-banner.jpeg');
+  background-position: center;
+  background-size: cover;
+}
+
+/* Banner section styles */
