@@ -37,7 +37,7 @@ body {
 /* Main section styles */
 
 .container {
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto;
 }
 
@@ -210,6 +210,7 @@ footer {
   .location,
   .hours {
     width: 90%;
+    margin: 0.5rem auto;
   }
 
   footer {
